@@ -1,0 +1,51 @@
+.photo_school{
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+.menu li{
+    margin: 0px;
+    font-size: 30px;
+    padding: 50px;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+/* style="height: 10px; color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)" */
+
+.hr1{
+    height: 10px;
+    width: 550px;
+    margin: 40px;
+    color: #000;
+    background-color: #000;
+    float: left;
+}
+
+.hr2{
+    height: 10px;
+    width: 550px;
+    margin: 40px;
+    color: #000;
+    background-color: #000;
+    float: right;
+}
+
+.vex{
+    width: 518px;
+    height: 284px;
+    margin: 0px auto;
+    margin: 40px;
+    padding: 40px;
+}
+
+.face{
+    float: right;
+    width: 400px;
+    height: 350px;
+    margin: 10px auto;
+    padding: auto;
+    
+}

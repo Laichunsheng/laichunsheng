@@ -1,0 +1,101 @@
+.photo_school{
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+.menu li{
+    margin: 0px;
+    font-size: 30px;
+    padding: 50px;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.score li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.Certificate_photo{
+    
+    width: 1215px;
+    height: 612px;
+    left: 218px;
+    top: 297px;
+}
+
+.section01{
+    background-image: url(../img/證照背景圖1.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    border: 10px solid #c51717;
+    width: 1815px;
+    height: 612px;
+    left: 218px;
+    top: 297px;
+}
+
+.section02{
+    background-image: url(../img/證照背景圖2.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    border: 10px solid #f00202;
+    background-size: 100%;
+    width: 1815px;
+    height: 612px;
+    left: 218px;
+    top: 297px;
+}
+
+article{
+    font-size: 30px;
+    width: 359px;
+    height: 70px;
+    left: 218px;
+    top: 349px;
+    background: #BC8585;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.text{
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.photo_01{
+    position: absolute;
+    width: 350px;
+    height: 227px;
+    left: 700px;
+    top: 550px;
+    border-radius: 20px;
+
+}
+.photo_02{
+    position: absolute;
+    width: 350px;
+    height: 227px;
+    left: 700px;
+    top: 1200px;
+    border-radius: 20px;
+    border: 10px solid #ac2b2b;
+
+}
+
+.photo_03{
+    position: absolute;
+    width: 350px;
+    height: 227px;
+    left: 700px;
+    top: 1800px;
+    border-radius: 20px;
+    border: 10px solid #ac2b2b;
+
+}

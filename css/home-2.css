@@ -1,0 +1,53 @@
+.photo_school{
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+.menu li{
+    margin: 0px;
+    font-size: 30px;
+    padding: 50px;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 100px;
+}
+main{
+    width: 1850px;
+    height: 950px;
+    background-image: url(../img/古裝照.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    border: 10px solid #EC850C;
+}
+
+.section03{
+    border: 10px solid #EC850C;
+    background-color: #d9d9d980;
+    width: 1300px;
+    height: 350px;
+    margin: 40px;
+    position: 30px;
+}
+
+.section02{
+    border: 10px solid #EC850C;
+    background-color: #d9d9d980;
+    width: 1300px;
+    height: 350px;
+    margin: 40px;
+    position: 30px;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.photo{
+    margin-left: 120px;
+}
+
+.photo02{
+    margin-left: 250px;
+}

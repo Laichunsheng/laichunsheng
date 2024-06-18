@@ -1,0 +1,62 @@
+.photo_school{
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+.menu li{
+    margin: 0px;
+    font-size: 30px;
+    padding: 50px;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.inner_ju{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 10px;
+    font-size: 3em;
+    color: brown;
+    display: flex;
+    justify-content: center;
+}
+
+.outter_ju{
+    display: flex;
+    flex-direction: row;
+}
+
+.inner_al{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 10px;
+    font-size: 3em;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner_al:nth-child(odd){
+    height: 400px;
+}
+
+
+
+.outter_al{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text{
+    font-size: 20px;
+    background-image: url(../img/html.png);
+    background-size: 198px 200px;
+}
+
+
