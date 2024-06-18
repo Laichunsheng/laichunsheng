@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/*設定版面區塊且置中*/
+#contents{
+    width: 960px;
+    padding: 40px 80px;
+    border: 1px solid #f6aa3e;
+    background-color: #d3a5a583;
+    margin: 30px auto;
+}
+
+/*視窗背景色設定*/
+body{
+    background-image: url(../img/cat_1.png);
+    background-color: rgb(110, 143, 143);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top right;
+    background-attachment: fixed;
+}
+/*連結顏色設定*/
+a{
+    color: rgb(50, 70, 70);
+}
+
+/*頁首,導覽,頁尾的共通設定*/
+
+
+/*導覽樣式設定*/
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    width: 120px;
+    background-color: #9c42249c;
+  
+    text-align: center;
+    border: 3px solid #5e7c13;
+    border-style: dotted ;
+    margin:  0 40px;
+    border-radius: 5px;
+}
+
+.menu a{
+    padding: 40px;
+    display: inline-block;
+    background-color: #f18bf176;
+    color: #3c4457;
+    border: #5bc98b solid;
+    border-radius: 10px;
+}
+.menu a:hover {
+    background-color: #d50909;
+    color: #f6aa3e;
+    border-left: 20px groove #27b0b4;
+    border-right: 10px solid #5bc98b;
+    border-top: 10px solid #83ac2a;
+    border-radius: 5px;
+}
+/*頁面標題設定*/
+h1{
+    background-color: rgb(40, 40, 108);
+    color: rgb(222, 121, 38);
+    width: 50%;
+    padding:50px;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 300% ;
+    border: #e4626274 solid 10px;
+    line-height: 1 ;
+    border-radius: 50%;
+    box-shadow: #ed0f0f 10px 10px 10px inset;
+    text-shadow: 5px 5px 5px #d50909;
+}
+
+/*次標題設定*/
+h2{
+    padding: 30px;
+    margin: 30px auto;
+    margin-bottom: 20% ;
+    border: 5px inset #d50909;
+    border-left: 20px groove #27b0b4;
+    border-right: 10px solid #5bc98b;
+    border-top: 10px solid #83ac2a;
+    color: tomato;
+}
+
+/*小標題設定*/
+.h-sub{
+    padding: 5px;
+    background-color: #d37c18;
+    color: #d6bb68;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #7a2525;
+}
+
+/*內容區塊邊框設定*/
+
+
+/*「更多介紹」連結設定*/
+
+
+/*連結圖示設定*/
+
+
+/*區塊間分隔*/
+
+
+/*文繞圖設定*/
+.imgL{
+    float: left;
+    margin-right: 20px;
+}
+.imgR{
+    float: right;
+    margin-left: 20px;
+}
+.clear{
+    clear: both;
+}
+.clearfix::after{
+    border-radius: 10px;
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+.catt{
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+/*圓形圖片設定*/
+.photo{
+    width: 480px;
+    height: 350px;
+}
+
